@@ -16,94 +16,71 @@
     />
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-dark bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand text-dark fst-italic fs-6" href="#"
-            ><img src="img/icons8-aereo-50.png" alt="logo"
-          /></a>
+    <header class="mb-3">
+      <nav class="navbar navbar-expand-lg bg-primary-subtle">
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
           <button
-            class="navbar-toggler bg-primary-subtle"
+            class="navbar-toggler"
             type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasDarkNavbar"
-            aria-controls="offcanvasDarkNavbar"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div
-            class="offcanvas offcanvas-end bg-primary-subtle"
-            tabindex="-1"
-            id="offcanvasDarkNavbar"
-            aria-labelledby="offcanvasDarkNavbarLabel"
-          >
-            <div class="offcanvas-header">
-              <h5
-                class="offcanvas-title text-dark"
-                id="offcanvasDarkNavbarLabel"
-              >
-                Menù
-              </h5>
-              <button
-                type="button"
-                class="btn-close btn-close-white"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a
-                    class="nav-link active text-dark"
-                    aria-current="page"
-                    href="#"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-dark" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <ul class="dropdown-menu dropdown-menu-dark">
-                    <li>
-                      <a class="dropdown-item text-dark" href="#">Action</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item text-dark" href="#"
-                        >Another action</a
-                      >
-                    </li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a class="dropdown-item text-dark" href="#"
-                        >Something else here</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-              <form class="d-flex mt-3" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn btn-success" type="submit">Search</button>
-              </form>
-            </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
           </div>
         </div>
       </nav>
     </header>
-    <main class="mx-3 mx-md-3 mx-lg-3">
+    <main class="mx-5">
       <div class="container bg-primary-subtle">
         <div class="row">
-          <div class="col pt-3">
+          <div class="col-12 pt-3">
             <h1 class="fs-5 border-bottom border-dark-subtle fw-light pb-3">
               Alessio Travel
               <span class="fs-6 fw-light">- Feel the Freedom</span>
@@ -388,22 +365,22 @@
       <div class="conteiner mt-4">
         <h3>Last Minute</h3>
         <div class="row mx-2">
-          <div class="col-6 col-lg-2 g-4 w-50 overflow-hidden">
+          <div class="col-6 col-md g-4 overflow-hidden">
             <img src="img/images.png" alt="" />
           </div>
-          <div class="col-6 col-lg-2 g-4 w-50 overflow-hidden">
+          <div class="col-6 col-lg-2 g-4 overflow-hidden">
             <img src="img/images.png" alt="" />
           </div>
-          <div class="col-6 col-lg-2 g-4 w-50 overflow-hidden">
+          <div class="col-6 col-lg-2 g-4 overflow-hidden">
             <img src="img/images.png" alt="" />
           </div>
-          <div class="col-6 col-lg-2 g-4 w-50 overflow-hidden">
+          <div class="col-6 col-lg-2 g-4 overflow-hidden">
             <img src="img/images.png" alt="" />
           </div>
-          <div class="col-6 col-lg-2 g-4 w-50 overflow-hidden">
+          <div class="col-6 col-lg-2 g-4 overflow-hidden">
             <img src="img/images.png" alt="" />
           </div>
-          <div class="col-6 col-lg-2 g-4 w-50 overflow-hidden">
+          <div class="col-6 col-lg-2 g-4 overflow-hidden">
             <img src="img/images.png" alt="" />
           </div>
         </div>
